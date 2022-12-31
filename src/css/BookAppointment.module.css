@@ -1,0 +1,46 @@
+.form_container{
+    margin: 9% auto 33%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 40%;
+    padding: 20px;
+}
+.form_container h2{
+    color: #005be7;
+}
+
+.bookAppointment{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 78.6%;
+    
+}
+.book_appo_btn{
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #005BE7;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 auto;
+    /* width: 45%; */
+}
+@media (max-width:1440px){
+    .form_container{width:50%}
+}
+@media (max-width:1170px){
+    .form_container{width:55%}
+}
+@media (max-width:912px){
+    .form_container{width:65%}
+}
+@media (max-width:540px){
+    .form_container{width:75%}
+}
+@media (max-width:470px){
+    .book_appo_btn{padding: 10px 5px;}
+}

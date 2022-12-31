@@ -1,0 +1,118 @@
+.appointment{
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 20px;
+    width: 46%;
+
+}
+.appointment_title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.appointment_title h3{
+    margin: 5px 0 5px 0;
+    font-size: 25px;
+}
+.appointment_title a{
+    font-size: 18px;
+    margin: 9px 0;
+    color: #005BE7;
+    font-weight: 700;
+    text-decoration: none;
+}
+.appointment_Table{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.paitentImg{
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.app_table {margin-top:20px; }
+.app_table table{width: 100%; overflow: scroll; }
+.app_tr{
+ display: flex;
+ justify-content: space-between;
+}
+.app_tr td{
+    display: flex;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.app_tr td:first-child{display: flex; }
+.paitent_name{
+    text-align: left;
+}
+.paitent_name h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+.paitent_name p{
+    font-size: 15px;
+    color:#5d5d5d;
+}
+.icon_check{
+    width: 25px;
+    height: 25px;
+    color: #005BE7;
+    cursor: pointer;
+}
+.icon_cancle{
+    width: 25px;
+    height: 25px;
+    color: red;
+    cursor: pointer;
+}
+/* width */
+.appointment_Table::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .appointment_Table::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius:10px;
+  }
+
+
+  
+  /* Handle */
+  .appointment_Table::-webkit-scrollbar-thumb {
+    background: #005BE7; 
+    border-radius:10px;
+    height: 20px;
+  }
+  
+  /* Handle on hover */
+  .appointment_Table ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  @media (max-width:1440px){
+    .app_tr td{padding: 10px 5px;}
+  }
+  @media (max-width:1280px){
+    .appointment{width:45% ;padding: 15px;}
+    .app_tr td{padding: 10px 1px; font-size: 15px;}
+    .paitentImg{margin-right: 10px;}
+  }
+  @media (max-width:1170px){
+      button{padding: 0px;}
+      .appointment{width:47% ;padding: 12px;}
+  }
+  @media (max-width:1024px){
+      .appointment{width: 97%; margin-bottom:30px;}
+      button{padding: 0 5px;}
+      .appointment_title h3{ font-size: 22px;}
+  }
+  

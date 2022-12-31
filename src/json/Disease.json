@@ -1,0 +1,54 @@
+[
+    {
+        "id": 0,
+        "disease": "Select Your Disease"
+    },
+    {
+        "id": 1,
+        "disease": "Achalasia Cardia"
+    },
+    {
+        "id":2 ,
+        "disease": "Acne Rosacea"
+    },
+    {
+        "id": 3,
+        "disease": " Adenoids"
+    },
+    {
+        "id": 4,
+        "disease": "Bronchial Asthma"
+    },
+    {
+        "id": 5,
+        "disease": "Chikungunya"
+    },
+    {
+        "id": 6,
+        "disease": "Disease (COPD)"
+    },
+    {
+        "id":7 ,
+        "disease": "Epistaxis"
+    },
+    {
+        "id": 8,
+        "disease": "Fibromyalgia"
+    },
+    {
+        "id": 9,
+        "disease": "Genital Herpes"
+    },
+    {
+        "id": 10,
+        "disease": " Kidney Stones"
+    },
+    {
+        "id":11 ,
+        "disease": "Piles (Hemorrhoids)"
+    },
+    {
+        "id": 12,
+        "disease": "Speech Disorders"
+    }
+]

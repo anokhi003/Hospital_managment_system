@@ -1,0 +1,110 @@
+.paitent_detail{
+    margin: 15% auto 33%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width:42%;
+}
+.paitent_detail h2{ 
+    text-align:left;
+    color:#005BE7;
+}
+.paitent_form , .paitent_title{ 
+    justify-content: space-between;
+    display: flex; 
+}
+.paitent_Img_input{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+/* input[type="file"]{display: none;} */
+input[type="file"]::file-selector-button{
+    border:1px solid #005BE7;
+}
+
+.form_column{
+ width:49%; 
+ /* padding: 15px;   */
+}
+.input_field{
+
+margin-bottom: 10px;
+border: 1px solid #005BE7;
+box-shadow: 0 4px 6px -6px rgb(1, 48, 255);
+display: flex;
+border-radius: 5px;
+font-size: 15px;
+overflow: hidden;
+}
+.input_icon{
+    
+ color:rgb(1, 48, 255);
+ padding: 10px;
+ background-color: rgba(1, 48, 255,0.1);
+ width:18px;
+height: 18px;
+}
+.input {
+ width:79%;
+padding: 8px;
+border: none;
+font-size: 18px;
+/* max-width: 280px; */
+}
+.input_select{width:85%;}
+.input_city{display:flex; justify-content: space-between;}
+.input_city_name{width:49%;}
+.city_name{width:65%}
+input[type="radio" i]{margin: 0px 3px;}
+
+input:focus ,select ,  textarea:focus{outline: none;}
+.Avatar{
+    width:100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.address_icon{ padding-bottom:54px;}
+ select option:first-child{
+ color:#a3a3a3;
+}
+textarea::placeholder{font-size: 20px;}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:#005BE7;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    border: 1px solid #005BE7;
+    background-color: #ffffff;
+    color: #005BE7;
+}
+
+@media (max-width:1200px) {
+    .paitent_detail{width: 50%;}
+    
+}
+@media (max-width:1050px) {
+    .paitent_form{flex-direction: column;}
+    .form_column{width:80%;margin:0px auto;}
+    
+}
+@media (max-width:600px) {
+    .paitent_detail{width: 70%;}
+}
+@media (max-width:500px) {
+    .paitent_Img_input{
+        display: block;}
+    .paitent_Img_input h2{ text-align: center;}
+    .paitent_detail{width: 80%;}
+}

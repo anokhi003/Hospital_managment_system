@@ -1,0 +1,119 @@
+.register{
+    
+    margin: 8% auto 33%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   width:40%;
+   
+}
+.tab_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 10px 0;
+    background-color: #005BE7;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+
+}
+.tab_group div:first-child{
+    border-right: 2px solid #ffffff;
+}
+.tab_li_div{
+    padding: 20px 0;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+.tab_list{
+    
+   list-style: none;
+    
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer; 
+}
+.tab_active {
+    border-bottom: solid 3px #ffffff; 
+}
+.tab_list:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #ffffff;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+.tab_list:hover:after{
+    transform: scaleX(1);
+}
+.tab_content{
+padding: 20px;
+}
+.register h2{color:#005BE7;}
+.textField{
+    width:80%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.register_input{
+    margin: 20px 0;
+}
+.register_input input:focus{
+    border:2px solid #005BE7;
+}
+.button{
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #005BE7;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    
+}
+.button:hover{
+    border:2px solid #005BE7;
+    background-color: #ffffff;
+    color: #005BE7;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.error{
+    text-align: start;
+    color: red;
+    margin-left: 8%;
+}
+.input_error{
+    border:2px solid red;
+}
+.input_blue{border:2px solid #005BE7;}
+@media (max-width:1500px) {
+    .register{width:50%}
+    
+}
+@media (max-width:1024px) {
+    .register{width:60%}  
+}
+@media (max-width:912px) {
+    .register{width:65%}  
+}
+@media (max-width:540px) {
+    .register{width:75%}  
+    .tab_li_div{padding: 10px 0;}
+}
+@media (max-width:414px){
+    .tab_content , .button{padding:10px}
+}

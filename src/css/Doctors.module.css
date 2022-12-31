@@ -1,0 +1,117 @@
+.doc_container{
+    width: 97%;
+    margin: 23px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.doc_card{
+    position: relative;
+    width: 18%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin:15px;
+    
+}
+.doc_badge {
+    position: absolute;
+    margin-top: 15px;
+    width: 0px;
+    height: 0px;
+    border-right: 15px solid transparent;
+    border-top: 17px solid #f8e1d5;
+    border-left: 55px solid #f8e1d5;
+    border-bottom: 15px solid #f8e1d5;
+}
+.badge_icon{
+    color: #F29157;
+    position: absolute;
+    display: flex;
+    top:23.5px;
+    left: 10px;
+}
+.doctor_data{
+    padding: 30px 0;
+}
+.doc_img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(4, 121, 255, 0.2), 0 6px 20px 0 rgba(4, 121, 255, 0.19);
+}
+.doctor_data p{
+     padding: 10px 0 25px;
+     font-size:17px;
+     height: 35px;
+     color: #9ea3ad;
+}
+.doctor_data span{
+    background-color: #EDF1FF;
+    padding: 7px;
+    border-radius: 5px;
+    color: #1D7BFF;
+    font-weight:600 ;
+}
+.btn_group{
+    background-color: #e6e6e6;
+ 
+    /* padding: 10px; */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn_group button:first-child{border-right: 1px solid #ffffff ;}
+.doc_btn{
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    color: #9ea3ad;
+    cursor: pointer;
+}
+.doc_btn span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doc_btn:hover{
+    color:#848992
+}
+/* .doc_btn:after{
+    display:block;
+    content: '';
+     border-width: 80%; 
+    border-bottom: solid 3px #9ea3ad;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  .doc_btn:hover:after{
+    transform: scaleX(1);
+} */
+.doc_btn_icon{
+    margin-right: 5px;
+    height: 20px;
+    width:20px;
+}
+@media (max-width:1670px){
+    .doc_card{width:22%;}
+    
+}
+@media (max-width:1550px){
+    .doc_card{width:22%;}
+    .doc_btn{padding: 10px 5px;}
+}
+@media (max-width:1280px){
+    .doc_card{width: 31%;}
+}
+@media (max-width:1124px){
+    .doc_card{width: 30.3%;}
+    .doctor_data p{height: 35px;}
+}
+@media (max-width:912px){
+    .doc_card{width: 45%;}
+    .doctor_data p{height: 25px;}
+}
+@media (max-width:540px){
+    .doc_card{width: 80%; margin: 15px auto;}
+
+}

@@ -1,0 +1,26 @@
+.paitent_container{
+    padding: 30px;
+}
+.no_of_paitent{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.paitent_data_group{
+    display: flex;
+    justify-content: space-between;
+}
+.paitents_table{
+    width:33.5% !important;
+    padding: 15px;
+    /* margin: 30px 0; */
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.paitents_chart{
+    width: 60% !important;
+}
+.paitents_table h2{
+    text-align: left !important;
+    font-size: 25px ;
+}

@@ -1,0 +1,128 @@
+.Medic_title{
+    margin: 40px auto 20px;
+}
+.Medic_title h2{    font-size: 34px;font-weight: 800;}
+.Medic_title p{
+    margin:20px 0 50px;
+    
+}
+.medic_tab{
+    width:70%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+}
+.medic_tab_group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 10px 0;
+    background-color: #005BE7;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+}
+.tab_li_div{
+    position: relative;
+    padding: 30px 0;
+    width: 25%;
+    justify-content: center;
+    display: flex;
+}
+.tab_active::after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 0;
+    content: '';
+    height: 0;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #2f89fc transparent transparent transparent;
+}
+.tab_list{
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer; 
+ }
+ .tab_active {
+    border-bottom: solid 3px #ffffff; 
+}
+.tab_list:after{
+    display:block;
+    content: '';
+    border-bottom: solid 3px #ffffff;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+.tab_list:hover:after{
+    transform: scaleX(1);
+     position: absolute;
+    bottom: -11px;
+    left: 0;
+    right: 0;
+    width: 0;
+    content: '';
+    height: 0;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 11px 13px 0 13px;
+    border-color: #005BE7 transparent transparent transparent;
+}
+.tab_content{
+    padding: 30px 40px 40px ;
+}
+
+.depart_title{
+    width:75%;
+    text-align: left;
+    padding-right: 20px;
+}
+.depart_title h3{font-size: 32px; margin: 0 0 20px 0;}
+.depart_title p{
+    margin-bottom: 50px;
+    color: #6d6d6d;
+    line-height: 25px;
+}
+.medication_group{
+    display: flex;
+}
+.img_container {width:25%}
+.img_container img{width: 100%;
+object-fit: cover;
+height: 100%;}
+.mec_content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.content_group{
+    display: flex;
+    width: 48%;
+}
+.content_group_title h4{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight:500 ;
+    color: rgba(0,0,0,.8);
+    margin-bottom: 12px;
+}
+.icon_background{
+    background-image: linear-gradient(to right bottom, #003c98, #0046ae, #0050c5, #005adc, #0065f4);
+    margin:0 16px 0 0;
+    padding: 15px;
+    max-height: 30px;
+    justify-content: center;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    color: #ffffff;
+}

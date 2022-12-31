@@ -1,0 +1,114 @@
+.recent_paitent{
+    background-color: #ffffff;
+    border-radius: 7px;
+    padding: 20px;
+    width: 46%;
+
+}
+.recent_paitent_title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.recent_paitent_title h3{
+    margin: 5px 0 5px 0;
+    font-size: 25px;
+}
+.recent_paitent_title a{
+    font-size: 18px;
+    margin: 9px 0;
+    color: #005BE7;
+    font-weight: 700;
+    text-decoration: none;
+}
+.recent_paitent_Table{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.paitentImg{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.recent_table { margin-top:20px;}
+
+.recent_table table{  width: 100%; overflow: scroll; border-collapse: collapse;}
+/* .recent_tr {
+ display: flex;
+ justify-content: space-between; 
+} */
+tbody> tr {border-bottom: 1px solid #ececec;}
+.recent_tr td{
+    /* display: flex;
+    width:16.6%; */
+    padding: 10px ;
+    font-size: 18px;
+    font-weight: 600;
+    /* justify-content: center; */
+    align-items: center;
+   
+
+}
+.recent_tr th{
+  width:16.6%;
+    color: #797979;
+    font-weight: 700;
+    padding: 10px;
+}
+.recent_tr th:first-child{ text-align: left; width:31%}
+.recent_tr td:first-child{display: flex;}
+.paitent_name{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+/* width */
+.recent_paitent_Table::-webkit-scrollbar ,.recent_paitent_Table table::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  .recent_paitent_Table::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius:10px; height: 10px;
+  }
+
+
+  
+  /* Handle */
+  .recent_paitent_Table::-webkit-scrollbar-thumb {
+    background: #005BE7; 
+    border-radius:10px;
+   
+  }
+  
+  /* Handle on hover */
+  .recent_paitent_Table ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  @media (max-width:1500px){
+    .recent_tr th:first-child{width:85px ; }
+    .recent_tr td:first-child{width: 110px;}
+  }
+  @media (max-width:1440px){
+    .recent_tr td{padding: 10px 5px;}
+  }
+  @media (max-width:1280px){
+    .recent_paitent{width:45%;}
+   .recent_tr td{padding: 10px 0px;font-size: 15px;}
+    .recent_tr th{padding: 10px 5px;}
+  }
+  @media (max-width:1024px){
+    .recent_paitent{width: 97%;  padding: 12px;}
+    .recent_tr th:first-child{width:140px ; }
+    .recent_tr td:first-child{width: 150px;}
+    .recent_paitent_title h3{font-size: 22px;}
+  }

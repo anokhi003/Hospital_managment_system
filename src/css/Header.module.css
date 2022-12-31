@@ -1,0 +1,124 @@
+.header{
+    padding: 10px 30px;
+    display: flex; 
+     justify-content: space-between;
+    max-height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.search_bar{
+    display: flex;
+    padding: 7px 10px;
+    background-color: #EEF0f1;
+    border-radius: 36px;
+    font-size: 20px;
+ border: none;
+}
+
+
+.search_icon{   
+    color: #87898B;
+    margin: 3px 6px 5px 3px ; 
+     background-color: transparent;
+ 
+}
+   
+.search_input{
+  background-color: transparent;
+  border: none;
+} 
+.search_bar input:active{ border: none;}
+.user_data{
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.notify{
+    position: relative;
+}
+.budge{
+    position: absolute;
+    right: 14px;
+    top: 5px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: red;
+}
+.Icon_color{
+    color: #9596AB;
+    height: 20px;
+    width: 30px;
+}
+
+.profileImg{
+    width: 35px;
+    height: 35px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.toggle{
+    position: relative;
+  display: inline-block;
+}
+.toggle_profile{
+ background: transparent;
+ border: none;
+ cursor: pointer;
+
+}
+.dropdown_content{
+ 
+    position: absolute;
+    display: grid;
+    top: 42px;
+    right: -30px;
+    background-color: #f1f1f1;
+   padding: 15px;
+   min-width: 250px;
+   text-align: left;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown_content1{justify-content: center;}
+.toggle_data{display: inline-flex; margin: 10px 0;}
+.toggle_icons{margin-right: 15px;}
+.loginBtn{
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+    align-items: center;
+    background-color: #005BE7;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+}
+.loginBtn:hover{
+    border:2px solid #005BE7;
+    background-color: #ffffff;
+    color: #005BE7;
+}
+.button{font-size: 18px;
+    max-width: 100px;
+    text-decoration: none;
+    background-color: #005BE7;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+@media (max-width:1620px){ 
+    .user_data{width: 25%;}
+}
+@media (max-width:1024px){
+    .user_data{width: 32%;}
+}
+@media (max-width:540px){
+    .user_data p{display: none;}
+    .header{padding: 10px 14px;}
+}

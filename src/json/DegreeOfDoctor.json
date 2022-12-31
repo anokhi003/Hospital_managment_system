@@ -1,0 +1,38 @@
+[
+    {
+        "id":0,
+        "degree":"Select Your Qualification"
+    },
+    {
+        "id":1,
+        "degree":"MBBS (Bachelor of Medicine, Bachelor of Surgery)"
+    },
+    {
+        "id":2,
+        "degree":"BDS (Bachelor of Dental Surgery)"
+    },
+    {
+        "id":3,
+        "degree":"BAMS (Bachelor of Ayurvedic Medicine and Surgery)"
+    },
+    {
+        "id":4,
+        "degree":"BAMS (Bachelor of Ayurvedic Medicine and Surgery)"
+    },
+    {
+        "id":5,
+        "degree":"BUMS (Bachelor of Unani Medicine and Surgery)"
+    },
+    {
+        "id":6,
+        "degree":"BHMS (Bachelor of Homeopathy Medicine and Surgery)"
+    },
+    {
+        "id":7,
+        "degree":"BYNS (Bachelor of Yoga and Naturopathy Sciences)"
+    },
+    {
+        "id":8,
+        "degree":"B.V.Sc & AH (Bachelor of Veterinary Sciences and Animal Husbandry)"
+    }
+]

@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+}
+.nav_left{
+  position: sticky;
+}
+.right_div{
+  width: 100%;
+  background-color: #F4F6F9;
+  /* height: 110vh; */
+ 
+}
+p,h1,h2,h3,h4,h6,h5,table{margin: 0;}
+button{border: none; background: transparent;}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width:1024px){
+.right_div{width:79%}
+}
+@media (max-width:820px){
+.right_div{width:90%}
+}
